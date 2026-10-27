@@ -29,7 +29,7 @@ figure, blockquote, dl, dd {
     /* height: 30rem; */
     aspect-ratio: 1/1;
     border-radius: 50%;
-    border: 5px solid #fff;
+    border: 5px solid #fec0ff;
     position: relative;
     
 }
@@ -37,12 +37,18 @@ figure, blockquote, dl, dd {
 .hand {
     width: 50%;
     height: 6px;
-    background: #fff;
+    background: #fec0ff;
     top: 50%;
     position: absolute;
     transform-origin: 100%;
     transform: rotate(90deg);
     transition:all 0.05s;
     transition-timing-function: cubic-bezier(.1,2.7,0.58,1);
+
+}
+
+.hand.second-hand {
+    height: 1px;
+    background: red;
 
 }
